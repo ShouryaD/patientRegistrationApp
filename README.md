@@ -1,12 +1,32 @@
-# React + Vite
+# 🩺 Patient Registration App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **frontend-only** patient registration app built using **React (Vite)**, **TailwindCSS**, and **Pglite** (SQLite in the browser) for client-side data storage. The app supports raw SQL queries, persistent data storage across page refreshes, and multi-tab synchronization using `BroadcastChannel`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Register new patients via a form
+- ✅ Query patient records using raw SQL
+- ✅ Query records saved in a seperate table
+- ✅ Data persists across page reloads using IndexedDB
+- ✅ Multi-tab synchronization for real-time consistency
+- ✅ Responsive design for mobile and desktop
+- ✅ Dark mode
+  and many more...
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+- Node.js ≥ 18
+- npm ≥ 9 (or use yarn / pnpm)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShouryaD/patientRegistrationApp.git
+cd patient-registration-app
+```
