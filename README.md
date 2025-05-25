@@ -30,3 +30,25 @@ A **frontend-only** patient registration app built using **React (Vite)**, **Tai
 git clone https://github.com/ShouryaD/patientRegistrationApp.git
 cd patient-registration-app
 ```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+### 4. Open the Application in Your Browser
+
+Open [http://localhost:5173](http://localhost:5173) to view the application.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
